@@ -11,7 +11,7 @@ export function Blog() {
 
   return (
     <main>
-      <Header title="Hipsters Tech Post's" emoji="⚡️" returnToProfile />
+      <Header title="Agent Post" emoji="⚡️" returnToProfile />
 
       <ContainersWrapper>
         {articles.map(article => (
