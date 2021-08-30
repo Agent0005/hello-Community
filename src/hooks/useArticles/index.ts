@@ -7,7 +7,7 @@ export function useArticles() {
   const [articles, setArticles] = useState<Articles[]>([]);
 
   useEffect(() => {
-    api.get(`feed`).then(response => {
+    api.get(`top-headlines?sources=techcrunch&apiKey=cf370461f1a249c38cc72997821354d1`).then(response => {
       setArticles(response.data);
     });
   }, []);
