@@ -11,7 +11,7 @@ export function Router() {
       <Routes>
         <Route path="/" element={<Profile />} />
         <Route path="/repositories" element={<Repositories />} />
-        <Route path="https://google.com" element={<Blog />} />
+        <Route path="/blog" element={<Blog />} />
       </Routes>
     </BrowserRouter>
   );
