@@ -17,7 +17,7 @@ export const socialMedia: NavigationItems = [
     url: `https://github.com/${USERNAME_KEY}`,
   },
   {
-    icon: <AiFillFacebookSquare />,
+    icon: <AiFillFacebook />,
     url: `https://www.facebook.com/shubham.bhusal.125`,
   },
 ];
