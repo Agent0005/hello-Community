@@ -2,10 +2,7 @@ import React from 'react';
 
 import {
   AiFillGithub,
-  AiFillLinkedin,
-  AiFillYoutube,
-  AiFillMediumSquare,
-  AiFillTwitterSquare,
+  AiFillFacebook,
 } from 'react-icons/ai';
 import { SiDevDotTo } from 'react-icons/si';
 import { USERNAME_KEY } from '../constants/params';
